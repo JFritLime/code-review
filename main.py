@@ -1,7 +1,7 @@
-print(f'Hello {input("Enter your name: ")}!')
-age = int(input("Enter your age: "))
+name = input("Enter your name: \n")
+age = int(input("Enter your age: \n"))
 
-if age > 17:
-    print("You are allowed to take a drivers licence!")
+if age >= 16:
+    print(f"{name}, you are allowed to take a drivers licence!")
 else:
-    print("You are not allowed to take a drivers licence")
+    print(f"{name}, you are not allowed to take a drivers licence")
